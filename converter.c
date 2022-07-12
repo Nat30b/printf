@@ -22,7 +22,8 @@ do
 {
 *--ptr = rep[num % base];
 num /= base;
-} while (num != 0);
+}
+while (num != 0);
 
 return (ptr);
 }
